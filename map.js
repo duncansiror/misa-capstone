@@ -4,9 +4,9 @@ var infoWindow;
 var locationSelect;
 
 function initMap() {
-    var sydney = {lat: -33.863276, lng: 151.107977};
+    var macon = {lat: 32.838089, lng: -83.670509};
     map = new google.maps.Map(document.getElementById('map'), {
-    center: sydney,
+    center: macon,
     zoom: 11,
     mapTypeId: 'roadmap',
     mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU}
